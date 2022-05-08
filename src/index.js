@@ -1,14 +1,14 @@
 import React from "react";
-import Search from "./Weather";
-
+import Weather from "./Weather";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <Search />
+      <Weather />
     </div>
   );
 }
